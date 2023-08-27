@@ -30,4 +30,18 @@ const books = [
     }
   })
 
-  console.log(userBooks);
+  // console.log(userBooks);
+
+  //+++++++++++++++++++++++++++++++ chaining concept in js 
+
+  const array=[1,2,3,4,5,6,7,8,9,10]
+
+  const newNums= array.map((num)=> num*10).map((val)=>val+2).filter((value)=> value>50)  // this is the syntax of chaning 
+
+  console.log(newNums) 
+
+
+
+
+  
+
